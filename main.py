@@ -56,5 +56,5 @@ def write_csv(products: list[Product]):
                 product.price
             ])
 
-if name == "main":
+if __name__ == "__main__":
     parser(url="https://glavsnab.net/tovary-dlya-dachi-i-sada/tekhnika-dlya-sada.html?limit=100", max_item=653)
